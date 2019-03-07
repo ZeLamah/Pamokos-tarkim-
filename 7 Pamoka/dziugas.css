@@ -1,0 +1,144 @@
+#pcmenu{
+	background-color:white;
+	padding:5px 0px 5px 0px;
+	margin:0;
+	display:flex;
+	height:auto;
+	
+}
+/*/Comp/*/
+@media only screen and (min-width: 600px) {
+     #mobilepagr{
+         display: none;
+     }
+}
+
+/*/Mobile/*/
+@media only screen and (max-width: 600px) {
+     #pcmenu{
+         display: none;
+     }
+}
+
+#menu_ul a{
+
+  display: inline;
+  font: Gruppo;
+  font-size: 30px;
+  color:#21abff;
+  margin-left:30px;
+  float:right;
+  font-weight:bold;
+  padding-top:10px;
+
+
+
+}
+
+#menu_ul{
+	display:flex;
+	width:80%;
+
+}
+
+
+#menu_ul ul{
+	padding:0;
+	margin:0;
+	width:100%;
+	float:right;
+}
+
+#menu_ul a:hover {
+ 
+  color:white;
+  
+}
+
+#mainbar{
+	background-image:url('http://florapubliclibrary.org/wp-content/uploads/2015/09/Cyan-Blue-Blue-Background-with-White-Light.jpg');
+	width:100%;
+	height:90vh;
+	display:flex;
+	background-size: cover;
+}
+.container{
+	display: flex;
+}
+#menu_span span{
+	color:#21abff;
+	font-size:80px;
+	font: italic bold  65px Georgia, serif;
+}
+
+
+#mobile{
+	background-color:white;
+	display:flex;
+}
+
+#icon{
+	height:60px;
+	width:60px;
+}
+
+#header span{
+	color:#21abff;
+	font-size:30px;
+	font: italic bold  50px Georgia, serif;
+	margin-left:40px;
+}
+
+#menu_span{
+	width:20%;
+}
+
+#mainbar h1{
+	font-size:60px;
+	font-family:Arial;
+	color:white;
+
+}
+
+#h1{
+	width:100%;
+	text-align:center;
+	height:80%;
+	align-content:center;
+}
+
+
+#spacer{
+	height:20%;
+	width:100%;
+}
+
+#mainbar_img{
+
+	width:65%;
+	height:100%;
+}
+
+#main1{
+
+	height:100%;
+	width:35%;
+}
+
+#main2{
+	height:100px;
+	width:65%;
+}
+
+#mainbar2{
+	height:justify-content;
+	align-content:center;
+
+}
+
+
+#cocka{
+	height:100px;
+	width:100px;
+	background-color:black;
+}

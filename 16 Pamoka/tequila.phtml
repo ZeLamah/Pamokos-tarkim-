@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alkagolic</title>
+</head>
+<body style="margin:0;">
+	<div style="border:4px black solid; height:15vh; text-align:center;">
+		
+
+<?php
+// //Ivedamas skaicius ir stringas, paima is stringo visus sk., tik ne pasirinkta.
+// function lolas($number , $string){
+
+// 	$sk = [0,1,2,3,4,5,6,7,8,9];
+// 	$sk2 = str_replace($number, "" , $sk);
+
+// 	$c  = str_replace($sk2, "", $string);
+
+// 	echo ($c);
+// 	echo "<br>";
+// 	print_r($sk2);
+
+// }
+
+
+
+// lolas('7',"He9llo6 W4or3ld 7!");
+
+/**
+* Shopas
+*/
+
+
+
+
+class Shop
+{
+	private $name;
+	private $price;
+	private $color;
+	private $rating;
+	private $stock;
+
+	public function masina($name, $price ,$color, $rating , $stock){
+		$this->name = $name;
+		$this->price = $price;
+		$this->color = $color;
+		$this->rating = $rating;
+		$this->stock = $stock;
+	}
+	
+}
+
+$masina1 = new Shop;
+$masina1->masina("Audi",1200, "red", "Amazing", "One of a kind")
+
+?>
+	</div>
+</body>
+</html>
+
+
+
+
+
+

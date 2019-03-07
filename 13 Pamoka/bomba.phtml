@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bomba.css">
+	<title>BOMBA</title>
+</head>
+<body>
+	<header>
+		<div id="header-main">
+			<div id="header1">Test</div>
+			<div id="header2">
+					<div><p>Page1</p></div>
+					<div><p>Page2</p></div>
+					<div><p>Page3</p></div>
+			</div>
+		</div>
+	</header>
+	<div id="first-main">	
+	</div>
+
+<div id="tests">
+<!-- 	<div id="hehe"></div> -->
+<?php
+
+
+
+// function plus_1(){
+// $a = [1,2,3,4,5];
+// foreach ($a as $sk) {
+// 	$sk1 = $sk + 1;
+// 	echo $sk1 . "<br>";
+// }
+
+// }
+
+// plus_1();
+
+
+// $a = [1,2,3,4,5];
+// $b = [2,3,4,5,6];
+// $c = [];
+// $c[0] = $b[0]+$a[0];
+// $c[1] = $b[1]+$a[1];
+// $c[2] = $b[2]+$a[2];
+// $c[3] = $b[3]+$a[3];
+// $c[4] = $b[4]+$a[4];
+
+
+
+// echo $c[0] . "<br>" . $c[1] . "<br>" . $c[2] ."<br>" . $c[3] ."<br>".  $c[4];
+
+
+
+	$a = [1,2,3,4,5];
+	$b = [2,3,4,5,6];
+
+	function skaicius($a,$b){
+
+		$c = [];
+		for ($i=0; $i <count($a) ; $i++) { 
+
+			$c[] = max($a[$i], $b[$i]);
+		
+
+		}
+		return $c;
+
+	}
+		echo "<pre>";
+	print_r(skaicius($a,$b));
+
+
+	// function arraySum($a,$b){
+
+
+
+	// 	$c = [];
+	// 	for ($i=0; $i <count($a) ; $i++) { 
+
+	// 		$c[] = $a[$i] + $b[$i];
+		
+	// 	}
+	// 		return $c;
+	// }
+	// echo "<pre>";
+	// print_r(arraySum($a,$b));
+?>	
+</div>
+
+</body>
+</html>

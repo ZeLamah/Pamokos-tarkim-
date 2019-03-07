@@ -1,0 +1,17 @@
+.main{
+	height:100vh;
+	width:100%;
+	display:flex;
+	border:10px black solid;
+}
+
+#pirmas,#antras,#trecias{
+	height:100px;
+	width:100px;
+	border: 5px dotted black;
+}
+
+.button1{
+	height:20px;
+	width:100px;
+}

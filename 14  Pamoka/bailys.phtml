@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bailys.css">
+	<title>Bailys</title>
+</head>
+<body>
+	<header>
+		<div id="header-main">
+			<div id="header1">Test</div>
+			<div id="header2">
+					<div><p>Page1</p></div>
+					<div><p>Page2</p></div>
+					<div><p>Page3</p></div>
+			</div>
+		</div>
+	</header>
+	<div id="first-main">	
+	</div>
+
+<div id="tests">
+
+<?php
+
+
+
+
+
+	// $a = [1,2,3,4,5];
+	// $b = [2,3,4,5,6];
+
+	// function skaicius($a,$b){
+
+	// 	$c = [];
+	// 	for ($i=0; $i <count($a) ; $i++) { 
+
+	// 		$c[] = max($a[$i], $b[$i]);
+		
+
+	// 	}
+	// 	return $c;
+
+	// }
+	// 	echo "<pre>";
+	// print_r(skaicius($a,$b));
+
+// $author = ["name" => "Sergei",
+// 		  "lastname" => "Puskin",
+// 		  "age" => "26 May 1799 - 	29 January 1837", "poem" => "f I walk the noisy streets, 
+// Or enter a many thronged church, 
+// Or sit among the wild young generation, 
+// I give way to my thoughts. 
+
+// I say to myself: the years are fleeting, 
+// And however many there seem to be, 
+// We must all go under the eternal vault, 
+// And someone's hour is already at hand. 
+
+// When I look at a solitary oak 
+// I think: the patriarch of the woods. 
+// It will outlive my forgotten age 
+// As it outlived that of my grandfathers'.
+
+// If I caress a young child, 
+// Immediately I think: farewell! 
+// I will yield my place to you, 
+// For I must fade while your flower blooms."];
+
+// print_r($author[1]);
+
+
+$text = "Ther2e are many variations of passages o3f Lorem Ipsum available, but the majority have suffered alteration in some form, by4 inject4ed humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything emb1arrassing hidden in t5he middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It u5ses a dictionary of over 200 Latin word3s, combined with a handf2ul of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is there12fore always fr3ee from repet2ition, injected humour, or non-characteristic words etc.";
+
+
+	$d = explode(' ', $text);
+
+
+	foreach ($d as $word) {
+		if(1 === preg_match('~[0-9]~', $word)){
+    
+    	$c[] = $word;
+	}
+	}
+
+	foreach ($c as $zodelis) {
+		$zodelis = preg_replace('/[0-9]/','',$zodelis);
+		$e .= ' '.$zodelis;
+
+	}
+
+   
+
+	print_r($e);
+
+?>
+</div>
+
+</body>
+</html>

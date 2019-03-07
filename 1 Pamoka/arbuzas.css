@@ -1,0 +1,59 @@
+.main{
+	height:justify-content;
+	width:100%;
+	display:flex;
+}
+
+.kvadratas1{
+	height:100vh;
+	width:20%;
+	background-color:#E6E6E6;
+	border: 7px black solid;
+	margin: 0 auto;
+}
+
+.kvadratas2{
+	height:100vh;
+	width:80%;
+	border: 7px black solid;
+	margin: 0 auto;
+	display:flex;
+}
+
+
+.pirmas{
+	height:100px;
+	width:100px;
+	border-radius:80px;
+	border:5px black solid;
+	margin: 0 auto;
+}
+.antras{
+	height:200px;
+	width:200px;
+	border-radius:160px;
+	border:5px black solid;
+	margin: 0 auto;
+}
+.trecias{
+	height:300px;
+	width:300px;
+	border-radius:240px;
+	border:5px black solid;
+	margin: 0 auto;
+}
+
+.besmegenis{
+	height:justify-content;
+	width:100%;
+	align-content:center;
+	m
+}
+
+.pirmas, .antras, .trecias {
+	align-content:center;
+}
+
+.spacer{
+	height:100px;
+}

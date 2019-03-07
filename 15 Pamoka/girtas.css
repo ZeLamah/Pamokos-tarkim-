@@ -1,0 +1,54 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+#header-main{
+	display:flex;
+	height:10vh;
+	background-color:black;
+}
+
+#header1{
+	width:70%;
+	color:#fff;
+	font-family:gruppo;
+	font-size:8vh;
+	font-weight:700;
+	text-align:left;
+	margin-left:6vh;
+
+}
+
+#header2{
+	display:flex;
+	margin:auto;
+	width:30%;
+	font-family:gruppo;
+	font-size:3vh;
+	font-weight:500;
+	color:#fff;
+	justify-content:space-around;
+}
+
+#first-main{
+	height:90vh;
+	background-image:url("forest1.jpg");
+	background-size:cover;
+}
+
+
+#tests{
+	height:20vh;
+	background-color:#dfdfdf;
+	margin:0;
+}
+
+
+#hehe{
+	height:10vh;
+	width:10%;
+	background-color:blue;
+	transform:translateY(2vh);
+}
+
